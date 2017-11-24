@@ -3,9 +3,11 @@ package com.knoldus.streaming.model;
 import java.util.List;
 
 public class ProductRequest {
-
     private String category = null;
     private List<String> products = null;
+
+    public ProductRequest() {
+    }
 
     public ProductRequest(String category, List<String> products) {
         this.category = category;
