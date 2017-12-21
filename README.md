@@ -1,3 +1,5 @@
+A [Giter8][g8] template for showcasing one way and two way streaming in lagom.
+
 # lagom-streaming
 A basic application to implement one way and two way streaming in lagom
 
