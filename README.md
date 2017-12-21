@@ -11,10 +11,15 @@ End point: /api/streaming/twoWay
 
 In two way streaming, request and response both will be streamed.
 
+# Clone the application
+sbt new knoldus/lagom-streaming.g8
+cd lagom-streaming/
+sbt clean compile
+
 # Run application
 Hit the below command
 
-mvn lagom:runAll
+sbt runAll
 
 ## Test the application
 You need to hit the service from the websocket client and then by seeing the response 
