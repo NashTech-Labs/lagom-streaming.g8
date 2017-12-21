@@ -13,7 +13,9 @@ In two way streaming, request and response both will be streamed.
 
 # Clone the application
 sbt new knoldus/lagom-streaming.g8
+
 cd lagom-streaming/
+
 sbt clean compile
 
 # Run application
